@@ -8,27 +8,27 @@
       <group id="Resources">
         <trans-unit id="Resources\PourboireLibelle\Text" translate="yes" xml:space="preserve">
           <source>Tip</source>
-          <target state="new">Tip</target>
+          <target state="translated" state-qualifier="tm-suggestion">Sugerencia</target>
         </trans-unit>
         <trans-unit id="Resources\ApplicationName" translate="yes" xml:space="preserve">
           <source>TipSplit</source>
-          <target state="new">TipSplit</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TipSplit</target>
         </trans-unit>
         <trans-unit id="Resources\DescriptionStore" translate="yes" xml:space="preserve">
           <source>TipSplit helps you divide the bill quickly</source>
-          <target state="new">TipSplit helps you divide the bill quickly</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TipSplit ayuda a dividir la lista rápidamente</target>
         </trans-unit>
         <trans-unit id="Resources\MontantParPersonneLibelle\Text" translate="yes" xml:space="preserve">
           <source>Total per person</source>
-          <target state="new">Total per person</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Total por persona</target>
         </trans-unit>
         <trans-unit id="Resources\MontantTotalLibelle\Text" translate="yes" xml:space="preserve">
           <source>Total amount</source>
-          <target state="new">Total amount</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Importe total</target>
         </trans-unit>
         <trans-unit id="Resources\NombrePersonnesLibelle\Text" translate="yes" xml:space="preserve">
           <source>Split into</source>
-          <target state="new">Split into</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dividir en</target>
         </trans-unit>
       </group>
     </body>
