@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
 // Pour en savoir plus sur le modèle d'élément Page vierge, consultez la page http://go.microsoft.com/fwlink/?LinkId=391641
@@ -36,8 +37,6 @@ namespace TipSplit
         /// Ce paramètre est généralement utilisé pour configurer la page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            // TODO: préparer la page pour affichage ici.
-
             // TODO: si votre application comporte plusieurs pages, assurez-vous que vous
             // gérez le bouton Retour physique en vous inscrivant à l’événement
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed.

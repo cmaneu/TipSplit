@@ -2,6 +2,11 @@
     x:Class="TipSplit.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:TipSplit">
+    xmlns:local="using:TipSplit"
+    xmlns:viewModel="using:TipSplit.ViewModel">
+    
+    <Application.Resources>
+        <viewModel:SplitOperationViewModel x:Key="SplitOperationViewModel" />
+    </Application.Resources>
 
 </Application>

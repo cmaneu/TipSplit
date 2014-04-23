@@ -1,14 +1,80 @@
-﻿<Page
-    x:Class="TipSplit.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:TipSplit"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+﻿<Page x:Class="TipSplit.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:TipSplit"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+      DataContext="{StaticResource SplitOperationViewModel}">
 
-    <Grid>
+    <Grid Background="#FF600076">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
+        <TextBlock Text="TIPSPLIT"
+                   Grid.Row="0"
+                   Margin="24,12,0,0"
+                   FontSize="24" />
+
+        <StackPanel Grid.Row="1"
+                    Margin="24,12">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="5*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+
+                    <TextBlock Text="Montant total"
+                               FontSize="18" />
+                    <TextBox InputScope="Number"
+                             Text="{Binding TotalAmount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+                <StackPanel Grid.Column="1"
+                            Margin="12,0,0,0">
+                    <TextBlock Text="Nombre de personnes"
+                               FontSize="18" />
+                    <TextBox InputScope="Number"
+                             Text="{Binding NumberOfParts, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                </StackPanel>
+            </Grid>
+
+
+
+            <TextBlock Text="Pourboire"
+                       FontSize="18" />
+            <Grid>
+                <Button Content="0%"
+                        Command="{Binding ChangeTipAmountCommand}"
+                        CommandParameter="0"></Button>
+                <Button Content="10%"
+                        Command="{Binding ChangeTipAmountCommand}"
+                        CommandParameter="10"
+                        HorizontalAlignment="Center"></Button>
+                <Button Content="15%"
+                        Command="{Binding ChangeTipAmountCommand}"
+                        CommandParameter="15"
+                        HorizontalAlignment="Right"></Button>
+
+            </Grid>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="2">
+            <TextBlock Text="Montant par personne"
+                       HorizontalAlignment="Center"
+                       FontSize="18" />
+            <TextBlock HorizontalAlignment="Center"
+                       FontSize="36"
+                       FontWeight="SemiBold"
+                       Text="{Binding AmountPerPartDisplay}"></TextBlock>
+        </StackPanel>
     </Grid>
 </Page>
