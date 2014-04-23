@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="TipSplit_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="TipSplit" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\PourboireLibelle\Text" translate="yes" xml:space="preserve">
+          <source>Tip</source>
+          <target state="new">Tip</target>
+        </trans-unit>
+        <trans-unit id="Resources\ApplicationName" translate="yes" xml:space="preserve">
+          <source>TipSplit</source>
+          <target state="new">TipSplit</target>
+        </trans-unit>
+        <trans-unit id="Resources\DescriptionStore" translate="yes" xml:space="preserve">
+          <source>TipSplit helps you divide the bill quickly</source>
+          <target state="new">TipSplit helps you divide the bill quickly</target>
+        </trans-unit>
+        <trans-unit id="Resources\MontantParPersonneLibelle\Text" translate="yes" xml:space="preserve">
+          <source>Total per person</source>
+          <target state="new">Total per person</target>
+        </trans-unit>
+        <trans-unit id="Resources\MontantTotalLibelle\Text" translate="yes" xml:space="preserve">
+          <source>Total amount</source>
+          <target state="new">Total amount</target>
+        </trans-unit>
+        <trans-unit id="Resources\NombrePersonnesLibelle\Text" translate="yes" xml:space="preserve">
+          <source>Split into</source>
+          <target state="new">Split into</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
