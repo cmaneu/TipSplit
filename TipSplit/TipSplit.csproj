@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TipSplit</RootNamespace>
     <AssemblyName>TipSplit</AssemblyName>
-    <DefaultLanguage>fr-FR</DefaultLanguage>
+    <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -104,7 +104,7 @@
     <Content Include="Assets\StoreLogo.scale-240.png" />
     <Content Include="Assets\WideLogo.scale-240.png" />
     <None Include="Package.StoreAssociation.xml" />
-    <PRIResource Include="Strings\fr-FR\Resources.resw" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

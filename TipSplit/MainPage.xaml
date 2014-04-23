@@ -31,14 +31,16 @@
 
                 <StackPanel Grid.Column="0">
 
-                    <TextBlock Text="Montant total"
+                    <TextBlock x:Uid="MontantTotalLibelle"
+                                Text="Montant total"
                                FontSize="18" />
                     <TextBox InputScope="Number"
                              Text="{Binding TotalAmount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </StackPanel>
                 <StackPanel Grid.Column="1"
                             Margin="12,0,0,0">
-                    <TextBlock Text="Nombre de personnes"
+                    <TextBlock x:Uid="NombrePersonnesLibelle"
+                               Text="Nombre de personnes"
                                FontSize="18" />
                     <TextBox InputScope="Number"
                              Text="{Binding NumberOfParts, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
@@ -48,7 +50,8 @@
 
 
 
-            <TextBlock Text="Pourboire"
+            <TextBlock x:Uid="PourboireLibelle"
+                        Text="Pourboire"
                        FontSize="18" />
             <Grid>
                 <Button Content="0%"
@@ -68,7 +71,8 @@
 
 
         <StackPanel Grid.Row="2">
-            <TextBlock Text="Montant par personne"
+            <TextBlock x:Uid="MontantParPersonneLibelle"
+                        Text="Montant par personne"
                        HorizontalAlignment="Center"
                        FontSize="18" />
             <TextBlock HorizontalAlignment="Center"

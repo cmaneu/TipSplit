@@ -121,8 +121,18 @@
     <value>TipSplit</value>
   </data>
   <data name="DescriptionStore" xml:space="preserve">
-    <value>TipSplit est une application vous permettant simplement de diviser la note entre plusieurs convives. Vous pouvez également gérer les pourboires.
-
-Cette version BETA est une version préliminaire. La majorité des fonctionnalités ne sont pas encore présentes.</value>
+    <value>TipSplit helps you divide the bill quickly</value>
+  </data>
+  <data name="MontantParPersonneLibelle.Text" xml:space="preserve">
+    <value>Total per person</value>
+  </data>
+  <data name="MontantTotalLibelle.Text" xml:space="preserve">
+    <value>Total amount</value>
+  </data>
+  <data name="NombrePersonnesLibelle.Text" xml:space="preserve">
+    <value>Split into</value>
+  </data>
+  <data name="PourboireLibelle.Text" xml:space="preserve">
+    <value>Tip</value>
   </data>
 </root>
