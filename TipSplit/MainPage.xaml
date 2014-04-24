@@ -8,7 +8,7 @@
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
       DataContext="{StaticResource SplitOperationViewModel}">
 
-    <Grid Background="#FF600076">
+    <Grid Background="#FF1B566D">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
